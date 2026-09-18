@@ -1,14 +1,11 @@
-# Labs DevOps - Chatbot Renting
 
-Suscripcion: Azure subscription 1
-Resource group: rg-labs-devops
-Region: eastus2
 
-Pendiente: instalar azd al empezar el Lab 3 con
-powershell -ex AllSigned -c "Invoke-RestMethod 'https://aka.ms/install-azd.ps1' | Invoke-Expression"
 
-## Labs
-- lab1/ Identidad sin contraseñas
-- lab2/ Contenedor + Container Apps + Bicep
-- lab3/ Foundry Hosted Agent
-- lab4/ Pipeline + KQL
+
+## Lab 1 - completado
+Key Vault: kv-labs-rafa-01
+Secreto: mi-secreto = hola-mundo-123
+Identity: id-chatbot-lab
+  clientId:    f507c956-8bb5-4145-a828-ac19f9e969df
+  principalId: 3d8d64f8-99d3-4a10-b60c-cdd444234fdd
+  rol: Key Vault Secrets User sobre el vault
